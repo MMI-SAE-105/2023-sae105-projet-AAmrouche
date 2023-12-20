@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito&family=Playfair+Display:wght@700&family=Raleway:ital@0;1&family=Ubuntu&display=swap');
+
+
+
+@import "base/main.css";
+@import "base/media.css";    
+
+@import "vendors/normalise.css";
+
+@import "utils/variables.css";
+
+
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/forms.css";
+@import "layout/frise.css";
+
+@import "components/button.css";
+@import "components/card.css";
