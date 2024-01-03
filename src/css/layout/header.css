@@ -1,4 +1,26 @@
-.test{
-    font-size: var(--corps-15);
-    font-family: var(--font-titre);
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 80px;
+    height: 120px;
+    background: var(--gris)  url('../../../../public/icons/petit_hibou.svg') no-repeat left center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
+.titre-header{
+
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    font-size: var(--titre);
+    padding: 0px 30px;
+   
+    
+}
+
+
+.menu_header {
+    margin-left: 20px; /* Add or reduce this value to adjust the space */
+}
+

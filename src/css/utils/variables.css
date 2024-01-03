@@ -4,6 +4,8 @@
     --couleur-dominante: rgba(63, 120, 128, 1);
     --couleur-tonique: rgba(237, 141, 139, 1);
     --gris: rgba(62, 61, 61, 1);
+    --blanc: rgb(251, 238, 238); 
+    
 
     /* Text-size styles */
     --titre-1: 25px;
