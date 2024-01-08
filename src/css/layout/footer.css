@@ -1,5 +1,5 @@
 .footer {
-
+    
     background: var(--gris);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 25px;
@@ -19,7 +19,37 @@
     margin: auto;
 }
 
-.liste-footer{
-
+.liste-footer{  
     
+    list-style: none; /* This will remove the list bullets */
+    padding: 0;
+    margin: 20px;
+    
+    font-size:var(--corps-11);
+    font-family: var(--font-titre);}
+
+.lien-footer{
+    text-decoration: none;
+    color: var(--blanc);
+
 }
+
+.Footer_logo{
+   display:flex;
+   display: flex;
+   justify-content: space-between;
+   text-decoration: none;
+   list-style: none;}
+
+   .footer-mentions{
+
+    text-align:center;
+    font-size:var(--titre-2);
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    border-top: 1px solid white; /* This will add a white line under the title */
+    padding-top: 10px;
+    width: 50%; /* Adjust this to control the length of the line */
+    display: block;
+    margin: auto;
+   }
