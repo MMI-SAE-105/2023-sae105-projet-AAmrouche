@@ -1,0 +1,25 @@
+.footer {
+
+    background: var(--gris);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.footer-titre{
+
+    text-align:center;
+    font-size:var(--titre-2);
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    border-bottom: 1px solid white; /* This will add a white line under the title */
+    padding-bottom: 10px;
+    width: 50%; /* Adjust this to control the length of the line */
+    display: block;
+    margin: auto;
+}
+
+.liste-footer{
+
+    
+}
