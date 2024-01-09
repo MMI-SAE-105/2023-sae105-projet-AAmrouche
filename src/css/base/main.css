@@ -9,6 +9,7 @@
 
 .section-image {
     position: relative;
+    width:100%;
      /* This will make the image container a reference point for absolute positioning */
 }
 
@@ -31,6 +32,7 @@
     font-family: var(--font-texte);
     text-align: right;
     color: var(--blanc);
+    padding : 10px 10px;
 
 }
 
@@ -47,4 +49,8 @@
     font-size: var(--titre);
     text-align: center;
     color: var(--blanc);
+}
+
+.image-section-image{
+    width: 100%;
 }

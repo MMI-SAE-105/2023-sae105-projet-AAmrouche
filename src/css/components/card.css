@@ -1,23 +1,33 @@
-.articles{
+.article{ 
+    margin: 10px 10px;;
+    border-radius: 10px; /* This will make the border corners rounded */
+    background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
+    padding: 10px;
+    height: 150px;
+    width: auto;
     
-
-    
-
 }
 
 .image-article{
 
-    padding: 10px 10px;
+    
     float:right;
+    height: 150px;
     }
 
 .box-article {
-    border: 1px solid var(--gris); /* This will create a border around the box */
+    
     border-radius: 10px; /* This will make the border corners rounded */
     background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
     padding: 10px; /* This will add some space inside the box */
     box-sizing: border-box;
-    margin-bottom: 80px; /* This will include the padding and border in the element's total width and height */
+    margin-bottom: 10px;
+    height: fit-content;
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+
 }
 
 
@@ -25,6 +35,8 @@
     color: var(--blanc);
     font-family: var(--font-titre);
     font-size: var(--corps-11);
+    text-align:center;
+    
 
 
 }
@@ -44,9 +56,19 @@
     border: 1px solid var(--couleur-tonique); /* This will create a border around the box */
     border-radius: 10px; /* This will make the border corners rounded */
     background-color: var(--couleur-tonique); /* This will fill the box with the color defined by var(--gris) */
-    padding: 10px; /* This will add some space inside the box */
+    padding: 10px 15px; /* This will add some space inside the box */
     box-sizing: border-box; 
-    margin:40px 10px;
+    margin-right:40px 20px;
+    align-items: center;
+    justify-content: center;
+
+    
 
 
+}
+
+.bouton_article{
+
+    position:absolute;
+    bottom: 0;
 }
