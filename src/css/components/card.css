@@ -1,4 +1,5 @@
 .articles{
+    
 
     
 
@@ -18,7 +19,8 @@
     border-radius: 10px; /* This will make the border corners rounded */
     background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
     padding: 10px; /* This will add some space inside the box */
-    box-sizing: border-box; /* This will include the padding and border in the element's total width and height */
+    box-sizing: border-box;
+    margin-bottom: 80px; /* This will include the padding and border in the element's total width and height */
 }
 
 
