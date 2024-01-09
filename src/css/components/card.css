@@ -7,12 +7,9 @@
 
 .image-article{
 
-    padding: 10px 15px;
+    padding: 10px 10px;
     float:right;
-    
-
-
-}
+    }
 
 .box-article {
     border: 1px solid var(--gris); /* This will create a border around the box */
