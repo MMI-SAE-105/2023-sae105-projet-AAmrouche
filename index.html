@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +15,29 @@
             <h1 class="titre-header"> Mystic Howl</h1>
          </a>
 
+         <button aria-controls="mainNav"  
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn"  aria-controls="mainNav">
+            <img src="public/icons/menu.svg"   alt="Menu hamburger">
+        </button>
+   
+        <nav  id="mainNav" 
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+         class="header__nav" id="mainNav">
+               <ul>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                </ul>
+            </nav>
 
-        <a> 
-         <img class="menu_header" src="public/icons/menu.svg" alt="Menu hamburger">
-        </a>  
+          
     </header>
 
     <main class="main">
