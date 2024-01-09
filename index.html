@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,29 +11,31 @@
 
     <header class="header">
 
-        <a> 
-            <h1 class="titre-header"> Mystic Howl</h1>
-         </a>
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
 
-         <button aria-controls="mainNav"  
-        @click="menuIsOpen = ! menuIsOpen"
-        class="header__menuBtn"  aria-controls="mainNav">
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
             <img src="public/icons/menu.svg"   alt="Menu hamburger">
         </button>
    
         <nav  id="mainNav" 
         x-show="menuIsOpen" 
         x-transition.duration.800ms
-         class="header__nav" id="mainNav">
+        class="header__nav" id="mainNav">
+        
                <ul>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="#">#</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
                 </ul>
             </nav>
 

@@ -1,0 +1,35 @@
+.main{
+
+    background-color: var(--couleur-dominante);
+
+
+}
+
+
+
+.section-image {
+    position: relative;
+     /* This will make the image container a reference point for absolute positioning */
+}
+
+.titre-section-image {
+    position: absolute; /* This will allow the text to be positioned over the image */
+    top: 30%; /* This will center the text vertically */
+    left: 50%; /* This will center the text horizontally */
+    transform: translate(-50%, -50%); /* This will ensure the text is centered */
+    text-align: center;
+    font-family: var(--font-titre);
+    font-size: var(--titre);
+    color:var(--blanc);
+    padding: 10px 20px;
+    
+}
+
+.sous-texte-section-image{
+
+    font-size: var(--corps-11);
+    font-family: var(--font-texte);
+    text-align: right;
+    color: var(--blanc);
+
+}
