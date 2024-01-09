@@ -33,3 +33,18 @@
     color: var(--blanc);
 
 }
+
+.texte-section-image{
+
+    font-size: var(--corps-15);
+    font-family: var(--font-texte);
+    color: var(--blanc);
+    padding: 10px 15px;
+}
+
+.titre-section{
+    font-family: var(--font-titre);
+    font-size: var(--titre);
+    text-align: center;
+    color: var(--blanc);
+}
