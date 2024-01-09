@@ -1,0 +1,53 @@
+.articles{
+
+    
+
+}
+
+.image-article{
+
+    padding: 10px 15px;
+    float:right;
+    
+
+
+}
+
+.box-article {
+    border: 1px solid var(--gris); /* This will create a border around the box */
+    border-radius: 10px; /* This will make the border corners rounded */
+    background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
+    padding: 10px; /* This will add some space inside the box */
+    box-sizing: border-box; /* This will include the padding and border in the element's total width and height */
+}
+
+
+.titre-article{
+    color: var(--blanc);
+    font-family: var(--font-titre);
+    font-size: var(--corps-11);
+
+
+}
+
+.texte-article{
+    color: var(--blanc);
+    font-family: var(--font-texte);
+    font-size: var(--corps-11);
+
+
+}
+
+.lien-article{
+    color: var(--gris);
+    font-family: var(--font-titre);
+    font-size: var(--bouton);
+    border: 1px solid var(--couleur-tonique); /* This will create a border around the box */
+    border-radius: 10px; /* This will make the border corners rounded */
+    background-color: var(--couleur-tonique); /* This will fill the box with the color defined by var(--gris) */
+    padding: 10px; /* This will add some space inside the box */
+    box-sizing: border-box; 
+    margin:40px 10px;
+
+
+}
