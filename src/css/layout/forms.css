@@ -1,3 +1,45 @@
-.Formulaire_form{
+
+.Main_texte{
+    font-family: var(--font-texte);
+    font-size: var(--corps-15);
+    color: var(--blanc);
+    padding: 10px 20px;
+
+}
+
+
+
+.Formulaire_form {
+    background-color: var(--gris);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom:20px;
+}
+
+.Formulaire_form input, .Formulaire_form textarea {
+    border: 2px solid var(--couleur-tonique);
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    background-color: var(--couleur-tonique);
+     /* This will set the text color of the input fields and textarea to white */
+}
+
+.Formulaire_form button {
+    background-color: var(--blanc); /* This will set the background color of the button to white */
+    color: var(--gris); /* This will set the text color of the button to grey */
+    border: none;
+    padding: 10px 20px;
+   width: 40px;
+}
+
+.bouton-form{
+
     
+    color:var(--gris);
+    width: 40px;
+    height: 50px;
+    background-color: var(--blanc); /* This will set the background color of the button to white */
 }
