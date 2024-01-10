@@ -51,3 +51,50 @@
 .image-section-image{
     width: 100%;
 }
+
+
+
+
+.Main_titre{
+    font-family: var(--font-titre);
+    font-size: var(--titre);
+    text-align: center;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
+
+.section_p{
+    font-family: var(--font-texte);
+    font-size: var(--corps-15);
+    text-align: left;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
+
+.section_sp{
+    font-family: var(--font-texte);
+    font-size: var(--corps-11);
+    text-align: left;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
+
+.section_img{
+    width: 100%;
+}
+
+.section_img_p{
+    font-family: var(--font-texte);
+    font-size: var(--corps-15);
+    text-align: right;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
+
+.section_titre{
+    font-family: var(--font-titre);
+    font-size: var(--titre);
+    text-align: center;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
