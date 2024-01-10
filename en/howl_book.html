@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Château de Hurle</title>
-    <link rel="stylesheet" href="../src/css/style.css"> 
-    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
-</head>
-<body class="body">
-
-    <header class="header">
-
-        <a class="titre-header" href="/index.html"> 
-            <h1> Mystic Howl</h1>
-        </a>
-
-        <button aria-controls="mainNav"  
-            @click="menuIsOpen = ! menuIsOpen"
-            class="header__menuBtn"  aria-controls="mainNav">
-            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
-            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
-        </button>
-   
-        <nav  id="mainNav  class="menu"
-        x-show="menuIsOpen" 
-        x-transition.duration.800ms
-        >
-        
-               <ul class="menu_list">
-                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
-                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
-                </ul>
-            </nav>
-
-          
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Howl moving castle novel</title>
+        <link rel="stylesheet" href="../src/css/style.css"> 
+        <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    </head>
+    <body class="body">
+    
+        <header class="header">
+    
+            <a class="titre-header" href="/index.html"> 
+                <h1> Mystic Howl</h1>
+            </a>
+    
+            <button aria-controls="mainNav"  
+                @click="menuIsOpen = ! menuIsOpen"
+                class="header__menuBtn"  aria-controls="mainNav">
+                <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+                <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+            </button>
+       
+            <nav  id="mainNav  class="menu"
+            x-show="menuIsOpen" 
+            x-transition.duration.800ms
+            >
+            
+                   <ul class="menu_list">
+                       <li class="menu__item" ><a class="menu__link" href="../en/Howl_moving_castle.html">Howl moving castle</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/seem_have.html">“I seem to have become quite cunning in my old age”</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/filmography.html">filmography</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/joe_hisaishi.html">Joe Hisaishi</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/howl_book.html">Howl moving castle novel</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/glossary.html">glossary</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/others_projets.html">Others projets</a></li>
+                       <li class="menu__item" ><a class="menu__link" href="../en/about.html">About</a></li>
+                    </ul>
+                </nav>
+    
+              
+        </header>
 
 
     <main class="main">  
@@ -303,19 +303,19 @@ fbi
         <nav >
             <div class="footer-titre">MysticHowl</div>
              <ul class="liste-footer">
-            <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
-            <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
-            <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../en/glossary.html">Glosary</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../en/others_projets.html">Others projets</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../en/about.html">About</a></li>
          </ul>
 
          <ul class="Footer_logo">
-            <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="../fr/chateau_hurle.html"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
             <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
             <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
             <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
             </ul>
 
-        <div class="footer-mentions">mentions Légales</div>
+        <div class="footer-mentions">legal information</div>
         </nav>
 
 
