@@ -128,3 +128,11 @@
     color: var(--blanc);
     padding: 10px 20px;
 }
+
+.Main_sous-titre{
+    font-family: var(--font-titre);
+    font-size: var(--titre-2);
+    text-align: center;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
