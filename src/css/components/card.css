@@ -157,3 +157,49 @@
     
 
 }
+
+.second_contenu{
+    margin: 10px 10px;;
+    border-radius: 10px; /* This will make the border corners rounded */
+    background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
+    padding: 10px;
+    height: fit-cont;
+    width: auto;
+    margin-bottom: 50px;
+
+}
+
+.second_img{
+    float:right;
+    height: 130px;
+    }
+
+
+
+.second_texte{
+    border-radius: 10px; /* This will make the border corners rounded */
+    background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
+    padding: 10px; /* This will add some space inside the box */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: fit-content;
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+
+}
+
+.second_p{
+    color: var(--blanc);
+    font-family: var(--font-texte);
+    font-size: var(--corps-11);
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
