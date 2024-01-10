@@ -35,7 +35,7 @@
 .menu_list {
     position: absolute;
     left: 0;
-    bottom:-100px;
+    bottom:-150px;
     padding: 16px;
     list-style: none;
     z-index: 1;
@@ -59,7 +59,8 @@
     color: var(--blanc);
     font-family: var(--font-titre);
     font-size: var(--titre-2);
-    text-decoration: none; /* This will remove the underline */
+    text-decoration: none; 
+    line-height: 1.5;
     
     
      
@@ -72,4 +73,9 @@
 .header__menuBtn{
     display: flex;
     align-items:center;
+}
+
+.croix {
+    z-index:2;
+    margin: 0 -15px 0 ;
 }
