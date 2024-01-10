@@ -103,3 +103,28 @@
     color: var(--blanc);
     padding: 10px 20px;
 }
+
+.glossaire_titre{
+
+    font-family: var(--font-titre);
+    font-size: var(--titre-3);
+    text-align: left;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
+
+.glossaire_T{
+    font-size: var(--corps-11);
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    padding: 10px 20px;
+
+}
+
+.section_P{
+    font-family: var(--font-texte);
+    font-size: var(--corps-15);
+    text-align: left;
+    color: var(--blanc);
+    padding: 10px 20px;
+}
