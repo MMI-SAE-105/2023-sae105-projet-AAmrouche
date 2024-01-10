@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>à propos</title>
+    <link rel="stylesheet" href="../src/css/style.css"> 
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body class="body">
+
+    <header class="header">
+
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
+
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
+            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+        </button>
+   
+        <nav  id="mainNav  class="menu"
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        >
+        
+               <ul class="menu_list">
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+          
+    </header>
+
+
+    <main>  
+
+        <div class="Main_contenu">
+            <h2 class="Main_titre">À propos</h2>
+            <p class="Main_texte">Anis, un passionné de 20 ans en première année de MMI à Montbéliard. Cette page est dédiée à vous informer sur l'œuvre magique et captivante du Château Ambulant. Mais attention, nous n'allons pas nous limiter à la surface, car il y a tellement plus à découvrir que ce que vous avez pu voir dans le film. Ce site a vu le jour grâce à un projet MMI qui a su harmoniser design et programmation.</p>
+            <p class="Main_texte">Un formulaire de contact est mis à votre disposition pour faciliter la communication entre vous et notre équipe. Nous sommes à votre écoute et prêts à répondre à toutes vos questions, préoccupations ou demandes. Votre satisfaction est notre priorité, et nous sommes là pour vous servir.</p>
+        
+        </div>
+
+        <form class="Formulaire_form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="subject">Sujet :</label>
+            <input type="text" id="subject" name="subject" required>
+        
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <input class="bouton-form" type="submit" value="Envoyer mon message">
+        </form>
+
+        <footer class="footer">
+        
+
+            <nav >
+                <div class="footer-titre">MysticHowl</div>
+                 <ul class="liste-footer">
+                <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
+                <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
+                <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+             </ul>
+    
+             <ul class="Footer_logo">
+                <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+                <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
+                <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
+                <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+                </ul>
+    
+            <div class="footer-mentions">mentions Légales</div>
+            </nav>
+    
+    
+    
+        </footer>
+    </body> 
+    </html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayao Miyakazi</title>
+    <link rel="stylesheet" href="../src/css/style.css"> 
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body class="body">
+
+    <header class="header">
+
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
+
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
+            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+        </button>
+   
+        <nav  id="mainNav  class="menu"
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        >
+        
+               <ul class="menu_list">
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+          
+    </header>
+
+
+    <main class="main">  
+
+        <div class="Main_contenu">
+            <h2 class="Main_titre">Hayao Miyazaki</h2>
+        </div>
+
+        <section class="Section_texte">
+            <p class="section_p"> Explorez le parcours extraordinaire de Hayao Miyazaki, réalisateur d'animation légendaire, dont l'influence révolutionne l'art de l'animation.Plongez dans l'univers enchanté de Miyazaki, découvrez son impact majeur sur le cinéma et l'imaginaire collectif mondial.</p>
+            <p class="section_sp">Publié aujourd’hui à 08h10.</p>
+            <img class="section_img" src="../public/img/Hayao-miyazaki-1.webp" alt="Photographie au Oscar">
+            <p class="section_img_p">Photographie au Oscar</p>
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">Un légitime héritage artistique</h2>
+            <p class="section_p">Hayao Miyazaki, né le 5 janvier 1941 à Tokyo, au Japon, est l'un des réalisateurs d'animation les plus influents et respectés au monde. Son héritage est profondément ancré dans l'histoire de l'animation japonaise et a ouvert la voie à une nouvelle ère de l'animation.
+                Miyazaki est originaire d'une famille d'artistes. Son père était le directeur de l'entreprise familiale, la Miyazaki Airplane, qui fabriquait des gouvernes pour avions. 
+                Cela a peut-être influencé son amour pour l'aviation, qui se reflète dans de nombreux films ultérieurs. Son intérêt précoce pour l'animation l'a conduit à fréquenter l'école secondaire de Gakushuin, où il a étudié la littérature occidentale et l'animation, avant d'entrer à l'Université Gakushuin. Cependant, sa véritable passion pour l'animation s'est développée alors qu'il travaillait comme animateur chez Toei Animation.
+            </p>
+            <img class="section_img" src="../public/img/Hayao-miyazaki-2.webp" alt="Image officiel du studio Ghibli">
+            <p class="section_img_p">Image officiel du studio Ghibli</p>
+            
+        </section>
+        
+        <section class="Section_texte">
+            <h2 class="section_titre">Le studio Ghibli: Une étape cruciale</h2>
+            <p class="section_p">Le travail acharné et le talent de Miyazaki ont rapidement attiré l'attention. Au début de sa carrière, il a travaillé sur des séries télévisées animées et a participé à la création de plusieurs films d'animation. Cependant, son véritable succès est survenu lorsque lui et son collaborateur de longue date, Isao Takahata, ont fondé le Studio Ghibli en 1985.
+                Avec le Studio Ghibli, Miyazaki a réalisé un certain nombre de films qui ont marqué l'histoire de l'animation. Des œuvres telles que "Mon Voisin Totoro," "Le Voyage de Chihiro," "Princesse Mononoké," et "Le Château Ambulant" ont conquis le cœur du public du monde entier grâce à leur beauté visuelle, leur profondeur narrative et leurs thèmes universels. Ses films ont établi de nouveaux standards en matière d'animation, en mélangeant habilement la magie, la nature, et les préoccupations sociales.
+            </p>
+            
+            <img class="section_img" src="../public/img/Hayao-miyazaki-3.webp" alt="Image tirée du film">
+            <p class="section_img_p">Image tirée du film </p>
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">Un légitime héritage</h2>
+            <p class="section_p">L'impact de Miyazaki sur l'animation ne se limite pas à son succès au box-office. Il a également ouvert la porte à une nouvelle génération d'animateurs, tant au Japon qu'à l'étranger, qui s'inspirent de son approche artistique unique et de ses récits innovants. Il a contribué à élargir le champ de l'animation en tant qu'art, laissant une empreinte indélébile dans l'industrie et l'imaginaire collectif des amateurs de films d'animation.
+                Hayao Miyazaki est un trésor national au Japon et une icône internationale de l'animation. Sa carrière exemplaire continue d'inspirer des générations de cinéastes, et son travail restera à jamais une référence dans le monde de l'animation.
+            </p>
+        </section>
+
+        
+
+        <article class="article">
+            <img class="image-article" src="../public/img/Joe-hisaishi-card.webp" alt="Photographie de Joe hisaishi">
+            <div class="box-article">
+                <h3 class="titre-article">Joe Hisaishi</h3>
+                <p class="texte-article">Joe Hisaishi, compositeur renommé, est célèbre pour sa collaboration...</p>
+                <div class="bouton_articlee"><a class="lien-article" href="/fr/joe_hisaishi.html"> Plus d'infos </a></div>
+            </div>
+        </article>
+
+        <article class="article">
+            <img class="image-article" src="../public/img/filmographie-card.webp" alt="Photographie de Hayao miyazaki">
+            <div class="box-article">
+                <h3 class="titre-article">Filmographie</h3>
+                <p class="texte-article">Voici une filmographie regroupant les longs métrages, les courts métrages...</p>
+                <div class="bouton_articlee"><a class="lien-article" href="/fr/filmographie.html">Plus d'infos</a></div> 
+            </div>
+        </article> 
+
+
+        
+    </main>
+
+    <footer class="footer">
+        
+
+        <nav >
+            <div class="footer-titre">MysticHowl</div>
+             <ul class="liste-footer">
+            <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+         </ul>
+
+         <ul class="Footer_logo">
+            <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+            </ul>
+
+        <div class="footer-mentions">mentions Légales</div>
+        </nav>
+
+
+
+    </footer>
+</body> 
+</html>

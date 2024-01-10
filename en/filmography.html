@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmographie</title>
+    <link rel="stylesheet" href="../src/css/style.css"> 
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body class="body">
+
+    <header class="header">
+
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
+
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
+            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+        </button>
+   
+        <nav  id="mainNav  class="menu"
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        >
+        
+               <ul class="menu_list">
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+          
+    </header>
+
+
+    <div class="Main_contenu">
+        <h2 class="Main_titre">Filmographie</h2>
+    </div>
+
+    <section class="Section_texte">
+        <p class="section_p">Voici une filmographie regroupant les longs métrages, les courts métrages et les séries télévisées sur lesquels Hayao Miyazaki a collaboré au cours de sa carrière.</p>
+        
+    </section>
+
+<div class="filmographie_card">
+
+    
+
+
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/conan-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Conan le fils du futur</p></a>
+        <p class="Filmographie_sp">1978</p>
+        
+        <p class="Filmographie_img_p">Série télévisé - 23 épisodes 25 minutes - aventure policier</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/cagliostro-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Le Château de Cagliostro</p></a>
+        <p class="Filmographie_sp">1979</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 100 minutes Animation</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/edgar-card-2.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Edgar, le détective cambrioleur</p></a>
+        <p class="Filmographie_sp">1980</p>
+        <p class="Filmographie_img_p">Série télévisé - 155 épisodes 25 minutes</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/nausicaa-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Nasicaa</p></a>
+        <p class="Filmographie_sp">1984</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 116 minutes Animation</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/sherlock-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Sherlock Holmes</p></a>
+        <p class="Filmographie_sp">1984-1985</p>
+        
+        <p class="Filmographie_img_p">Série télévisé - 26 épisodes 26 minutes - Enquêtes </p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/chateau-ciel-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Château dans le ciel</p></a>
+        <p class="Filmographie_sp">1986</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 124 minutes - Animation, fantasy, aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/totoro-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Mon voisin totoro</p></a>
+        <p class="Filmographie_sp">1988</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 86 minutes - Aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/kiki-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Kiki la petite socière</p></a>
+        <p class="Filmographie_sp">1989</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 102 minutes - Drame/Aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/porco-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Porco rosso</p></a>
+        <p class="Filmographie_sp">1992</p>
+        
+        <p class="Filmographie_img_p">Long métrage -  93 minutes - Aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/mark-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p"> On Your Mark</p></a>
+        <p class="Filmographie_sp">1995</p>
+        
+        <p class="Filmographie_img_p">Court métrage - 6 minutes 40 s - Rock japonais</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/mononoke-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Princesse mononoké</p></a>
+        <p class="Filmographie_sp">2001</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 124 min - Drame, aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/chatonbus-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Mei et le Chatonbus</p></a>
+        <p class="Filmographie_sp">2002</p>
+        
+        <p class="Filmographie_img_p">Court métrage - 13 minutes - Aventure - Fantastique - </p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/chateau-ambulant-filmographie.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Château ambulant</p></a>
+        <p class="Filmographie_sp">2004</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 119 minutes - Drame, fantasy, aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/monomon-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Monomon l'araignée d'eau</p></a>
+        <p class="Filmographie_sp">2006</p>
+        
+        <p class="Filmographie_img_p">Court métrage 14 minutes Aventure</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/ponyo-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Ponyo sur la falaise</p></a>
+        <p class="Filmographie_sp">2008</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 100 minutes - animation, aventures</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/vent-leve-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Le vent se lève</p></a>
+        <p class="Filmographie_sp">2013</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 126 minutes - Biographie romancée</p>
+    </section>
+
+    <section class="Filmographie_texte"> 
+        <img class="Filmographie_img" src="../public/img/garcon-heron-card.webp" alt="Affiche du film">
+        <a><p class="Filmographie_p">Le Garçon et le Héron</p></a>
+        <p class="Filmographie_sp">2023</p>
+        
+        <p class="Filmographie_img_p">Long métrage - 125 minutes - fantastique, historique</p>
+    </section>
+</div>
+    <div class="Main_contenu">
+        <p class="Main_contenu">Toutes les images sont tirées du film ou de l'affiche officielle.</p>
+    </div>
+    <footer class="footer">
+        
+
+        <nav >
+            <div class="footer-titre">MysticHowl</div>
+             <ul class="liste-footer">
+            <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+         </ul>
+
+         <ul class="Footer_logo">
+            <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+            </ul>
+
+        <div class="footer-mentions">mentions Légales</div>
+        </nav>
+
+
+
+    </footer>
+</body> 
+</html>

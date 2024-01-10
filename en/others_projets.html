@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autre projets</title>
+    <link rel="stylesheet" href="../src/css/style.css"> 
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body class="body">
+
+    <header class="header">
+
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
+
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
+            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+        </button>
+   
+        <nav  id="mainNav  class="menu"
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        >
+        
+               <ul class="menu_list">
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+          
+    </header>
+
+    <div class="Main_contenu">
+        <h2 class="Main_titre">Autres projets </h2>
+        <h3 class="Main_sous-titre">Oeuvres similaires</h3>
+    </div>
+
+    <article class="article">
+        <img class="image-article" src="../public/img/Kikis-card.webp" alt="Affiche du film">
+        <div class="box-article-propos">
+            <h3 class="titre-article">Kiki's Journal</h3>
+            <p class="texte-article">Un site dédié à l'œuvre de Miyazaki : "Kiki la petite sorcière" !</p>
+            <div class="bouton_article"><a class="lien-article" href="https://kikis-journal.blandinenahorny.fr">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article">
+        <img class="image-article" src="../public/img/spirits-card.webp" alt="Affiche du film">
+        <div class="box-article-propos">
+            <h3 class="titre-article">Spirits</h3>
+         <p class="texte-article">Un site dédié à l’oeuvre de Miyazaki : “ Voyage de Chihiro” !</p>
+         <div class="bouton_article"><a class="lien-article" href="https://spirits.viktorghirardelli.fr/fr/ ">Plus d'infos</a></div>
+    </div>
+    </article>
+
+    <article class="article">
+        <img class="image-article" src="../public/img/wizard-card.webp" alt="Affiche du film">
+        <div class="box-article-propos">
+            <h3 class="titre-article">Wizard's Heart</h3>
+         <p class="texte-article">Un site dédié à l'œuvre de Miyazaki : "Le château Ambulant " !</p>
+         <div class="bouton_article"><a class="lien-article" href="https://wizardsheart.mmeloni.fr">Plus d'infos</a></div>
+    </div>
+    </article>
+
+    <div class="Main_contenu">
+        <h3 class="Main_sous-titre">Autres Oeuvre</h3>
+    </div>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/cleopatre-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+            <h3 class="titre-article-projet">Mission Cléopâtre</h3>
+            <p class="texte-article-projet">Chloé Vincent</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="https://mission.cleopatre.chloe-vct.fr">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/kaalsifis-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+         <h3 class="titre-article-projet">Kaalsifis</h3>
+            <p class="texte-article-projet">Maëlle Coquelet</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="https://kaalsifis.maelle-coquelet.fr">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/games-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+          <h3 class="titre-article-projet">Hope Games</h3>
+            <p class="texte-article-projet">Noélie Talhouarn</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="http://hope-games.xn--nolie-talhouarn-cnb.fr">Plus d'infos</a></div> 
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/alien-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+            <h3 class="titre-article-projet">Alien from space</h3>
+            <p class="texte-article-projet">Max prin</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="https://alienfromspaceprinmax.netlify.app/fr/acceuil">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/avatar-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+         <h3 class="titre-article-projet">Avatar's legacy</h3>
+         <p class="texte-article-projet">Gabriel Moreau</p>
+         <div class="bouton_article_projet"><a class="lien-article-projet" href="https://glowing-crumble-2d11c9.netlify.app">Plus d'infos</a></div>
+    </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/insomnia-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+         <h3 class="titre-article-projet">Insomnia</h3>
+            <p class="texte-article-projet">Matys Ouvrard</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="http://insomniafc.matysouvrard.fr/fr/">Plus d'infos</a></div>
+        </div>  
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/scarinfo-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+            <h3 class="titre-article-projet">Scarinfo</h3>
+            <p class="texte-article-projet">Matthis Boreaniz</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="#">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/paprikia-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+            <h3 class="titre-article-projet">Paprik-IA</h3>
+            <p class="texte-article-projet">Ronan Lefour</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="https://paprik-ia.netlify.app">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/rush-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+            <h3 class="titre-article-projet">Rush Racing Rivals</h3>
+            <p class="texte-article-projet">Antoine Fabre</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="https://merry-creponne-4cceea.netlify.app">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/confrerie-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+            <h3 class="titre-article-projet">La confrérie</h3>
+            <p class="texte-article-projet">Kilian Breuil</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="http://laconfrerie.breuil-kilian.fr/">Plus d'infos</a></div>
+        </div>
+    </article>
+
+    <article class="article-projet">
+        <img class="image-article-projet" src="../public/img/senseception-card.webp" alt="Image du film">
+        <div class="box-article-projet">
+         <h3 class="titre-article-projet">Senseception</h3>
+            <p class="texte-article-projet">Lola Roth</p>
+            <div class="bouton_article_projet"><a class="lien-article-projet" href="https://senseception.lolar.fr/fr/">Plus d'infos</a></div>
+        </div>
+    </article>
+    
+    <footer class="footer">
+        
+
+        <nav >
+            <div class="footer-titre">MysticHowl</div>
+             <ul class="liste-footer">
+            <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+         </ul>
+
+         <ul class="Footer_logo">
+            <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+            </ul>
+
+        <div class="footer-mentions">mentions Légales</div>
+        </nav>
+
+
+
+    </footer>
+</body> 
+</html>

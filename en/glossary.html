@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossaire</title>
+    <link rel="stylesheet" href="../src/css/style.css"> 
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body class="body">
+
+    <header class="header">
+
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
+
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
+            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+        </button>
+   
+        <nav  id="mainNav  class="menu"
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        >
+        
+               <ul class="menu_list">
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+          
+    </header>
+
+
+    <main>  
+
+        <div class="Main_contenu">
+            <h2 class="Main_titre">Le Château de Hurle </h2>
+        </div>
+
+        <div class="glossaire_contenu">
+            <h2 class="glossaire_titre">Article Hayao Miyazaki</h2>
+        </div>
+
+        <section class="Glossaire">
+            <p class="glossaire_T">Miyazaki Airplane </p>
+            <p class="section_P">Il s'agit d'une entreprise japonaise spécialisée dans la fabrication de composants aéronautiques pendant la Seconde Guerre mondiale. La compagnie était dirigée par Katsuji Miyazaki, le père de Hayao Miyazaki. Cette relation familiale explique en partie la fréquente représentation d'avions dans les films de Hayao Miyazaki.</p>
+        </section>
+
+        <section class="Glossaire">
+            <p class="glossaire_T">Gakushuin </p>
+            <p class="section_P"> Il s'agit d'une université privée japonaise située à Tokyo. En 2023, elle est classée cinquantième parmi plus de 200 universités dans le classement des universités au Japon.</p>
+        </section>
+
+        <section class="Glossaire">
+            <p class="glossaire_T">Isao Takahata </p>
+            <p class="section_P">Le co-fondateur du Studio Ghibli avec Hayao Miyazaki est Isao Takahata. Il était un réalisateur japonais renommé et a également exercé une influence considérable dans le monde de l'art.
+            </p>
+        </section>
+
+        <section class="Glossaire">
+            <p class="glossaire_T">Toei Animation</p>
+            <p class="section_P">Toei Animation est un studio japonais de production de films et de séries d'animation depuis 1948. Le studio a contribué à l'animation de plusieurs titres emblématiques, tels que Goldorak, Les Chevaliers du Zodiaque, Akira, Sailor Moon, et plus récemment, One Piece. Toei Animation a joué un rôle majeur dans la création et le développement de ces célèbres œuvres d'animation japonaise.
+            </p>
+        </section>
+
+        <section class="Glossaire">
+            <p class="glossaire_T">Box-office</p>
+            <p class="section_P">Le chiffre d'affaires d'une production artistique est mesuré en fonction du nombre de spectateurs et/ou du nombre de billets vendus. Il s'agit d'une échelle de succès déterminée en fonction du montant des recettes générées.
+            </p>
+        </section>
+
+        <div class="glossaire_contenu">
+            <h2 class="glossaire_titre">Article Joe Hisaishi</h2>
+            </h2>
+        </div>
+
+        <section class="Glossaire">
+            <p class="glossaire_T">Nagato</p>
+            <p class="section_P">Cette ville japonaise, située dans la préfecture du même nom, se caractérise par la présence d'un fleuve et d'une rivière. De plus, son histoire remonte à un petit village qui s'est formé autour d'un temple bouddhiste.
+            </p>
+        </section>
+
+
+
+    </main>
+    <footer class="footer">
+        
+
+        <nav >
+            <div class="footer-titre">MysticHowl</div>
+             <ul class="liste-footer">
+            <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+         </ul>
+
+         <ul class="Footer_logo">
+            <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+            </ul>
+
+        <div class="footer-mentions">mentions Légales</div>
+        </nav>
+
+
+
+    </footer>
+</body> 
+</html>

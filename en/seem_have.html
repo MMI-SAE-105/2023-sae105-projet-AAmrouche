@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../src/css/style.css"> 
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body class="body">
+
+    <header class="header">
+
+        <a class="titre-header" href="/index.html"> 
+            <h1> Mystic Howl</h1>
+        </a>
+
+        <button aria-controls="mainNav"  
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn"  aria-controls="mainNav">
+            <img src="../public/icons/menu.svg"   alt="Menu hamburger">
+            <img  class="croix" src="../public/icons/croix.svg"  alt="Menu fermer" x-show="menuIsOpen">
+        </button>
+   
+        <nav  id="mainNav  class="menu"
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        >
+        
+               <ul class="menu_list">
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_ambulant.html">Château ambulant</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/avec_lage.html">"Avec l'âge on apprend à devenir plus malicieux"</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/Hayao_miyazaki.html">Hayao Miyazaki</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/filmographie.html">Filmographie</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/joe_hisaishi.html">Joe Hisaishi</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/chateau_hurle.html">Le château de Hurle</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/glossaire.html">Glossaire</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/autre_projets.html">Autres projets</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/fr/apropos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+          
+    </header>
+
+
+    <main class="main">  
+
+        <div class="Main_contenu">
+            <h2 class="Main_titre">"Avec l'âge on apprend à devenir plus malicieux"</h2>
+        </div>
+
+        <section class="Section_texte">
+            <p class="section_p"> Sophie, héroïne de "Le Château Ambulant," nous enseigne que les apparences peuvent être trompeuses. Explorez ce message puissant sur la véritable valeur qui réside au-delà des stéréotypes, au cœur de la bienveillance et de l'authenticité. </p>
+            <p class="section_sp">Publié aujourd’hui à 08h06, modifié à 08h13</p>
+            <img class="section_img" src="../public/img/avec-lage-1.webp" alt="Image tirée du film">
+            <p class="section_img_p">Image tirée du film </p>
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">Au-delà des apparences dans "le château ambulant"</h2>
+            <p class="section_p">La réplique "Avec l'âge, on apprend à devenir plus malicieux" dans le contexte du Château Ambulant revêt un aspect humoristique grâce à l'auto-dérision dont fait preuve Sophie. Même sous l'apparence d'une vieille dame, elle demeure une jeune fille de 18 ans dans son esprit, incarnant ainsi la profonde vérité que les apparences sont souvent trompeuses.
+            </p>
+        </section>
+        
+        <section class="Section_texte">
+            <h2 class="section_titre">La puissance du message sur les apparences</h2>
+            <p class="section_p">La question des apparences et de leur caractère trompeur est un thème universellement fascinant. Dans la société moderne, la préoccupation constante pour l'image et la perfection physique est plus présente que jamais. Les réseaux sociaux et les médias nous bombardent d'images de perfection, nous poussant à juger les autres et nous-mêmes par des critères superficiels.</p>
+            
+            <img class="section_img" src="../public/img/avec-lage-2.webp" alt="Image tirée du film">
+            <p class="section_img_p">Image tirée du film </p>
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">La véritable identité au-delà descouches supercifielles</h2>
+            <p class="section_p">Cependant, le message de Sophie nous rappelle que l'âge, la beauté physique, et même les stéréotypes sociaux, ne sont que des couches superficielles qui ne définissent pas qui nous sommes réellement. La vérité est plus profonde que ce qui peut être vu en surface. En réalité, nos expériences, nos émotions, et notre caractère forgent notre véritable identité. Les gens les plus beaux sont souvent ceux dont l'intérieur rayonne de bonté, d'empathie et de sagesse.
+            </p>
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">Un exemple d'amour inconditionnel</h2>
+            <p class="section_p">Un exemple éloquent de cette philosophie est le comportement de Sophie envers Hauru dans le film. Peu importe l'état de Hauru ou son apparence physique changeante, Sophie ne l'a jamais jugée. Au contraire, elle l'a toujours soutenu et accepté, reconnaissant la valeur de la personne au-delà de ses transformations. Cette relation entre les deux personnages renforce le message que la vérité et la valeur d'une personne résident bien au-delà des apparences extérieures.
+            </p>
+            <img class="section_img" src="../public/img/avec-lage-3.webp" alt="Image tirée du film">
+            <p class="section_img_p">Image tirée du film </p>
+
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">L'importance de voir au-delà des apparences</h2>
+            <p class="section_p">La nécessité de voir au-delà des apparences est essentielle pour bâtir des relations authentiques et pour apprécier la diversité qui rend notre monde si riche. Cela nous rappelle également de ne pas juger précipitamment les autres, car nous ne pouvons pas connaître leur histoire, leurs luttes, et leur véritable nature en nous basant uniquement sur ce que nous voyons extérieurement.
+            </p>
+        </section>
+
+        <section class="Section_texte">
+            <h2 class="section_titre">Une réflexion profonde sur la vérité intérieur</h2>
+            <p class="section_p">Ainsi, Sophie et son expérience dans le Château Ambulant nous offrent une réflexion profonde sur la superficialité des apparences et la richesse de la vérité intérieure, renforcée par son attitude bienveillante envers Hauru. Dans un monde obsédé par l'image, il est essentiel de se rappeler que la vérité réside bien au-delà de la surface, et que chaque individu est bien plus complexe et précieux qu'il n'y paraît.</p>
+        </section>
+
+
+        <article class="article">
+            <img class="image-article" src="../public/img/Hayao-miyazaki-card.webp" alt="Photographie de Hayao miyazaki">
+            <div class="box-article">
+             <h3 class="titre-article">Hayao Miyazaki</h3>
+             <p class="texte-article">Explorez le parcours extraordinaire de Hayao Miyazaki ...</p>
+             <div class="bouton_articlee"><a class="lien-article" href="/fr/Hayao_miyazaki.html">Plus d'infos</a></div>
+            </div>
+        </article> 
+
+        
+    </main>
+
+    <footer class="footer">
+        
+
+        <nav >
+            <div class="footer-titre">MysticHowl</div>
+             <ul class="liste-footer">
+            <li class="liste-footer"><a class="lien-footer" href="../fr/glossaire.html">Glossaire</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/autre_projets.html">Autres projets</a></li>
+            <li class="liste-footer"><a class="lien-footer" href="../fr/apropos.html">à propos</a></li>
+         </ul>
+
+         <ul class="Footer_logo">
+            <li class="element-footer"><a class="lien-footer" href="#"><img class="logo-footer" src="../public/icons/globe.svg" alt="Logo globe"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.twitter.com"><img class="logo-footer" src="../public/icons/twitter.svg" alt="Logo twitter"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://www.instagram.com"><img class="logo-footer" src="../public/icons/instagram.svg" alt="Logo instagram"></a></li>
+            <li class="element-footer"><a class="lien-footer" href="https://mmimontbeliard.com/"><img class="logo-footer" src="../public/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+            </ul>
+
+        <div class="footer-mentions">mentions Légales</div>
+        </nav>
+
+
+
+    </footer>
+</body> 
+</html>
