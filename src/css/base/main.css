@@ -2,6 +2,11 @@
     background-color: var(--couleur-dominante);
 }
 
+.body{
+    background-color: var(--couleur-dominante);
+
+}
+
 
 
 .section-image {
