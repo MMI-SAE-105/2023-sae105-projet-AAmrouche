@@ -1,0 +1,62 @@
+.Filmographie_texte{
+
+    margin: 2px 2px;;
+    border-radius: 10px; /* This will make the border corners rounded */
+    background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
+    padding: 10px;
+    height: 300px;
+    width: 159px;
+    margin-bottom:50px;
+    margin-top:10px;
+
+
+
+}
+
+.filmographie_card{
+
+    display: grid; /* This will make .filmographie_card a grid container */
+    grid-template-columns: repeat(2, 1fr); /* This will create 2 columns of equal width */
+    gap: 2px;
+    margin-bottom:15px;
+    
+
+
+}
+
+.Filmographie_img{
+    
+
+}
+
+.Filmographie_p{
+    font-size: var(corps-11);
+    font-family: var(--font-texte);
+    color: var(--blanc);
+
+
+
+}
+
+.Filmographie_sp{
+    font-size: var(corps-11);
+    font-family: var(--font-texte);
+    color: var(--blanc);
+
+}
+
+.Filmographie_img_p{
+    font-size: var(corps-11);
+    font-family: var(--font-texte);
+    color: var(--blanc);
+
+
+    
+}
+
+.Main_contenu{
+    font-size: var(corps-11);
+    font-family: var(--font-texte);
+    color: var(--blanc);
+
+}
