@@ -2,7 +2,7 @@
     margin: 10px 10px;;
     border-radius: 10px; /* This will make the border corners rounded */
     background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
-    padding: 10px;
+    
     height: 150px;
     width: auto;
     
@@ -61,6 +61,7 @@
     margin-right:40px 20px;
     align-items: center;
     justify-content: center;
+    
 
     
 
@@ -70,13 +71,15 @@
 .bouton_article{
 
     position:absolute;
-    bottom: -6px;
+    bottom: -10px;
+    right: 38px;
 }
 
 .bouton_articlee{
 
     position:absolute;
-    bottom: -30px;
+    bottom: -23px;
+    right: 38px;
     
 }
 
@@ -138,6 +141,7 @@
 
     position:absolute;
     bottom: -30px;
+    right: 48px;
     
 
 }
@@ -148,7 +152,7 @@
     padding: 10px; /* This will add some space inside the box */
     box-sizing: border-box;
     margin-bottom: 10px;
-    height: fit-content;
+    height: 123px;
     width: auto;
     display:flex;
     flex-direction: column;
@@ -162,8 +166,8 @@
     margin: 10px 10px;;
     border-radius: 10px; /* This will make the border corners rounded */
     background-color: var(--gris); /* This will fill the box with the color defined by var(--gris) */
-    padding: 10px;
-    height: fit-cont;
+    
+    height: fit-content;
     width: auto;
     margin-bottom: 50px;
 
@@ -171,7 +175,9 @@
 
 .second_img{
     float:right;
-    height: 130px;
+    height:123px;
+    width: 200px;
+    
     }
 
 
@@ -182,7 +188,7 @@
     padding: 10px; /* This will add some space inside the box */
     box-sizing: border-box;
     margin-bottom: 10px;
-    height: fit-content;
+    height: 123px;
     width: auto;
     display:flex;
     flex-direction: column;
